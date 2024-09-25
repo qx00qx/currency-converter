@@ -1,0 +1,12 @@
+.currency_info {
+    margin-top: 1rem;
+    span {
+        margin-right: 10px;
+    }
+    .top {
+        color: var(--chakra-colors-red-500);
+    }
+    .bottom {
+        color: var(--chakra-colors-green-500);
+     }
+}

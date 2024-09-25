@@ -1,11 +1,7 @@
-import ConverterSwamp from './components/ui/converter_swamp/ConverterSwamp';
+import Main from './components/pages/Main';
 
 function App() {
-  return (
-    <>
-      <ConverterSwamp />
-    </>
-  );
+  return <Main />;
 }
 
 export default App;

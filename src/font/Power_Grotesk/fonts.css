@@ -1,0 +1,13 @@
+/* Regular */
+@font-face {
+  font-family: 'Power-Grotesk';
+  font-weight: 400;
+  src: url(./TTF/PowerGrotesk-Regular.ttf);
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Power-Grotesk';
+  font-weight: 600;
+  src: url(./TTF/PowerGrotesk-Bold.ttf);
+}
