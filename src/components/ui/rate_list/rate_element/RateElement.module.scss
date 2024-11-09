@@ -1,0 +1,25 @@
+.rate_element {
+    background-color: var(--chakra-colors-gray-100);
+    border-radius: 15px;
+    padding: 8px 15px;
+    .top {
+        display: flex;
+        gap: 5px;
+        font-size: 16px;
+        letter-spacing: 0.6px;
+        font-weight: 600;
+        color: #5C5C5C;
+       >div {
+        span:nth-child(2):before {
+            content: '/';
+            margin-right: 1.5px;
+            margin-left: 1.5px;
+        }
+       }
+    }
+    .value {
+        font-size: 20px;
+        letter-spacing: -0.6px;
+        font-weight: 600;
+    }
+}

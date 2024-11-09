@@ -1,0 +1,28 @@
+.currency_info {
+    display: flex;
+    margin-top: 1rem;
+    margin-top: 70px;
+    align-items: center;
+    span:nth-child(1) {
+        margin-right: 7px;
+        font-size: 16px;
+    }
+    .top {
+        color: var(--chakra-colors-red-500);
+    }
+    .bottom {
+        color: #02B341;
+    }
+    .rate_info {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        b {
+            font-size: 14px;
+            letter-spacing: -0.6px;
+        }
+        svg {
+            stroke-width: 2.5px;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+.rate_list {
+    display: flex;
+    gap: 15px;
+    overflow: scroll;
+}
+.rate_list::-webkit-scrollbar {
+    display: none;
+}

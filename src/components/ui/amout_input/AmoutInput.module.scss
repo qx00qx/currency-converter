@@ -1,7 +1,10 @@
 .amout {
-    max-width: 320px;
-    border: 1px solid rgba(7, 28, 71, 0.12);
-    border-radius: 16px;
+    width: 343px;
+    height: 81px;
+    flex-shrink: 0;
+    border: 1px solid #D4DFED;
+    border-radius: 20px;
+    background-color: #fff;
     padding: 6px;
     align-items: center;
     justify-content: space-between;
